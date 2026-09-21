@@ -110,5 +110,5 @@ function Navbar() {
     </nav>
   )
 }
-
+// Responsive navigation for desktop and mobile
 export default Navbar
