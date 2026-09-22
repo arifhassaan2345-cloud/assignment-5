@@ -66,10 +66,19 @@ export default defineConfig([
       parserOptions: {
         project: ['./tsconfig.node.json', './tsconfig.app.json'],
         tsconfigRootDir: import.meta.dirname,
+
+
       },
-      // other options...
+      
     },
   },
 ])
+## Dev Stack
 
-```
+A responsive technology stack builder built with React, TypeScript and Tailwind CSS.
+
+### Features
+
+- Explore modern development technologies
+- Add and remove technologies from your personal stack
+- Responsive design for desktop, tablet and mobile
