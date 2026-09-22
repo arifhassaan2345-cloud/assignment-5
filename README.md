@@ -1,84 +1,53 @@
-# React + TypeScript + Vite
+ Dev Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dev Stack is a responsive web app for exploring modern technologies and building a personalized development stack.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://assignment-5-beige-six.vercel.app
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- React Toastify
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-
-
-      },
-      
-    },
-  },
-])
-## Dev Stack
-
-A responsive technology stack builder built with React, TypeScript and Tailwind CSS.
-
-### Features
+## Features
 
 - Explore modern development technologies
-- Add and remove technologies from your personal stack
-- Responsive design for desktop, tablet and mobile
+- Add and remove technologies from Your Stack
+- Prevent duplicate technologies
+- Responsive design for all devices
+- Loading state and toast notifications
+
+## React Questions
+
+### 1. What is the difference between state and props?
+
+Props pass data from parent to child. State manages data inside a component.
+
+### 2. What is useState?
+
+useState is a React Hook used to create and update component state.
+
+### 3. What is useEffect?
+
+useEffect is used for side effects such as data fetching and timers.
+
+### 4. What is a React component?
+
+A component is a reusable part of the user interface.
+
+### 5. What is JSX?
+
+JSX allows us to write HTML-like syntax inside JavaScript or TypeScript.
+
+### 6. What is conditional rendering?
+
+It means showing different UI based on a condition.
+
+### 7. Why are keys important in React?
+
+Keys help React identify list items and update them efficiently.
