@@ -8,6 +8,9 @@ function Hero() {
 
         {/* Left Content */}
         <div>
+          <span className="mb-4 inline-block rounded-full bg-orange-50 px-4 py-2 text-xs font-semibold text-orange-500">
+  Build • Learn • Create
+</span>
           <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-500">
             Developer Technology Hub
           </p>
