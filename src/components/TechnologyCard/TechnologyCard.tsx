@@ -52,16 +52,18 @@ function TechnologyCard({
 
       {/* Rating */}
       <div className="mt-4 flex items-center gap-2">
-        <span className="text-yellow-400">★</span>
+  <div className="flex text-sm text-yellow-400">
+    ★ ★ ★ ★ ★
+  </div>
 
-        <span className="text-sm font-bold text-gray-700">
-          {technology.rating}
-        </span>
+  <span className="text-sm font-bold text-gray-700">
+    {technology.rating}
+  </span>
 
-        <span className="text-xs text-gray-400">
-          / 5.0
-        </span>
-      </div>
+  <span className="text-xs text-gray-400">
+    / 5.0
+  </span>
+</div>
 
       {/* Add Button */}
       <button
