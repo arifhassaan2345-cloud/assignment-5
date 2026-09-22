@@ -120,9 +120,17 @@ function TechnologySection() {
                   Your Stack
                 </h3>
 
-                <p className="mt-1 text-sm text-gray-500">
-                  {selectedTechnologies.length} Technology Selected
-                </p>
+                <div className="mt-1 flex items-center gap-2">
+  <span className="rounded-full bg-orange-50 px-2.5 py-1 text-xs font-bold text-orange-500">
+    {selectedTechnologies.length}
+  </span>
+
+  <p className="text-sm text-gray-500">
+    {selectedTechnologies.length === 1
+      ? "Technology Selected"
+      : "Technologies Selected"}
+  </p>
+</div>
               </div>
 
               {selectedTechnologies.length > 0 && (
