@@ -134,8 +134,9 @@ function Footer() {
 
         {/* Bottom Footer */}
         <div className="mt-12 flex flex-col gap-4 border-t border-gray-200 pt-6 text-sm text-gray-500 md:flex-row md:items-center md:justify-between">
-          <p>© 2026 Dev Stack. All rights reserved.</p>
-
+          <p>
+  © 2026 Dev Stack. Built with React, TypeScript & Tailwind CSS.
+</p>
           <div className="flex gap-5">
             <a href="#" className="hover:text-orange-500">
               Privacy
